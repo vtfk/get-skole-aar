@@ -1,6 +1,6 @@
 {
   "name": "get-skole-aar",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Get current, next or previous schoolyear",
   "main": "index.js",
   "scripts": {
