@@ -16,4 +16,8 @@ describe('test get-school-year', () => {
   it('returns expected result when not providing a date', () => {
     expect(getSchoolYear()).toBe(getSchoolYear(new Date().toISOString()))
   })
+
+  it('throws when proving an invalid date', () => {
+    expect(() => getSchoolYear('not-a-valid-date')).toThrow()
+  })
 })
