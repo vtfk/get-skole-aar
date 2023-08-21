@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/vtfk/get-skole-aar#readme",
   "devDependencies": {
-    "jest": "27.0.6",
+    "jest": "27.5.1",
     "standard": "16.0.4"
   },
   "standard": {
